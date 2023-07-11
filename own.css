@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+    background-color: #fcf3f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    color: #c20117;
+    background-color: #fcf3f1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(45deg,transparent 14%,#c20117 5%,transparent,transparent,transparent,transparent);
+}
+.header-name{
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 60px;
+}
+.header-search{
+    padding-right: 50px;
+    cursor: pointer;
+}
+.header-list ul li {
+    list-style: none;
+    display: inline;
+    font-size: 13px;
+    margin: 0 20px;
+    padding: 3px 10px;
+    border: 1px solid #c20117;
+    cursor: pointer;
+}
+.header-list ul li:hover{
+    background-color: #c20117;
+    color: #fcf3f1;
+}
+.head-pic{
+    width: 100%;
+    height: 700px;
+    background-image: url(Images/photopum-ranaroja-xdBkTMLw8O8-unsplash.jpg);
+    background-size: 100%;
+}
+.head-pic-text{
+    font-size: 100px;
+    font-weight: 900;
+    color: #fcf3f1;
+    padding-left: 230px;
+    padding-top: 145px;
+    letter-spacing: 1px;
+}
+.head-pic-quote{
+    text-align: center;
+    color: #c20117;
+    font-weight: 600;
+    font-size: 27px;
+    padding-top: 80px;
+    letter-spacing: 1px;
+}
+.head-pic-quote-name{
+    font-size: 15px;
+    color: #c20117;
+}
+.head-pic-text2{
+    color: #9a9898;
+    padding-left: 240px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-top: 14px;
+    font-weight: 600;
+}
+.centre{
+    margin-top: 100px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.centre-head-text{
+    color: #c20117;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.centre-head-text1{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: -30px;
+}
+.centre-head-text2{
+    font-size: 40px;
+    font-weight: 500;
+}
+.centre-head-text3{
+    font-size: 60px;
+    font-weight: 600;
+}
+.centre-head{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+form{
+    display: grid;
+    gap: 20px;
+    margin-top: 50px;
+}
+.centre-head-signup input{
+    height: 34px;
+    border: 1px solid #c20117;
+    border-radius: 10px;
+    background-color: #fcf3f1;
+    font-size: 14px;
+    padding-left: 7px;
+}
+#signup{
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.centre-mid{
+    margin-top: 100px;
+    padding: 0px 30px;
+}
+.centre-mid-pic{
+    height: 600px;
+    background-image: url(Images/alexander-jawfox-NKBRYeCj-_4-unsplash.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+.centre-mid-text{
+    color: #c20117;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 60px 80px;
+    letter-spacing: 1px;
+}
+.centre-mid-input{
+    color: #c20117;
+    padding-left: 80px;
+    line-height: 35px;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1.3px;
+}
+#dragracing{
+    margin-left: 125px;
+}
+#yes{
+    margin-left: 60px;
+}
+select{
+    margin-left: 165px;
+}
+#offroad{
+    margin-left: 308.5px;
+}
+#rallying{
+    margin-left: 33px;
+}
+.centre-mid-file input{
+    margin-left: 52px;
+}
+.centre-mid-audio{
+    margin-left: 900px;
+}
+.centre-mid-submit{
+    margin-left: 308.5px;
+}
+.centre-table{
+    text-align: center;
+}
+.centre-table-head{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 70px 0;
+}
+.centre-iframe-text{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 70px 0;
+}
+.centre-iframe-button{
+    width: 150px;
+    height: 34px;
+    border-radius: 3px;
+    background-color: #fcf3f1;
+    border: 1px solid #c20117;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 100px;
+    float: right;
+}
+.centre-iframe-button a{
+    color: #c20117;
+    text-decoration: none;
+}
+.base{
+    width: 1000px;
+    height: 500px;
+    background-color: #fcf3f1;
+    margin: 200px auto;
+    margin-bottom: 70px;
+    animation-name: animation;
+    animation-duration: 5s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+@keyframes animation{
+    0%{background-color: #fcf3f1;}
+    50%{background-color: #c20117;}
+    100%{background-color: #fcf3f1;}
+}
+.base-text{
+    color: #fcf3f1;
+    font-size: 100px;
+    font-weight: 600;
+    position: absolute;
+    top: 190px;
+    left: 200px;
+}
+footer{
+    color: #fcf3f1;
+    background-color: #c20117;
+    width: 100%;
+    height: 90px;
+    margin-top: 40px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px 180px;
+    font-size: 17px;
+    cursor: pointer;
+}
+li:hover{
+    font-size: 20px;
+}
+.base-line{
+    background-color: #c20117;
+}
+.div{
+    color: #fcf3f1;
+    font-size: 13px;
+    padding: 0px 90px;
+}
